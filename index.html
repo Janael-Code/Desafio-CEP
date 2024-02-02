@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio CEP</title>
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Consulta de CEP</h2>
+
+  <form id="cepForm">
+    <label for="cepInput">Digite o CEP:</label>
+    <input type="text" id="CEP" placeholder="Ex: 89000000" required>
+    <button type="button" onclick="consultarCEP()">Consultar</button>
+  </form>
+
+  <div id="resultadoConsulta"></div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <!-- chamando o segundo scritp -->
+  <script src="consultaCEP.js"></script>
+
+</body>
+</html>

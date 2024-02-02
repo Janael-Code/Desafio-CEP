@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px; /* Espaço entre o label e o input */
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 10px; /* Espaço abaixo do input */
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1a73e8;
+  }
+  
+  #resultadoConsulta {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+  
+    /* Adicionando centralização */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
